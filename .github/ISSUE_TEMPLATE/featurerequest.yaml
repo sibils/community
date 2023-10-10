@@ -44,7 +44,7 @@ body:
       description: Add any other context or screenshots about the feature request here.
       placeholder: Please describe
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: |
