@@ -23,8 +23,16 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      description: Tell us what happened and how it happened?
+      placeholder: Please explain what happened with details to reproduce the problem. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to happen? 
+      description: Tell us what did you expect to happen?
+      placeholder: Please explain what behavior you were expecting to happen. 
     validations:
       required: true
   - type: dropdown
