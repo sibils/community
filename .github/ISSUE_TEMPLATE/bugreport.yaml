@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: Report a bug
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -30,11 +30,14 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Service
+      description: Which service are you using?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - SIBiLS APIs
+        - Biodiversity PMC
+        - BiotXplorer
+        - PMC Viewer
+        - Variomes
       default: 0
     validations:
       required: true
