@@ -1,10 +1,8 @@
 name: Bug Report
 description: Report a bug
 title: "[Bug]: "
-labels: ["bug"]
-projects: ["Biodiversity PMC", "BiotXplorer", "Variomes"]
-assignees:
-  - emilie19
+labels: ["bug", "BiodiversityPMC"]
+projects: ["sibils-gui]
 body:
   - type: input
     id: service
