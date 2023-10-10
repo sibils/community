@@ -24,7 +24,7 @@ body:
     attributes:
       label: What happened?
       description: Tell us what happened and how it happened?
-      placeholder: Please explain what happened with details to reproduce the problem. 
+      placeholder: Please explain what happened with details to reproduce the problem. Please include screenshots if useful. 
     validations:
       required: true
   - type: textarea
