@@ -2,7 +2,7 @@ name: Bug Report
 description: Report a bug
 title: "[Bug]: "
 labels: ["bug", "BiodiversityPMC"]
-projects: ["sibils-gui]
+projects: ["sibils-gui"]
 body:
   - type: input
     id: service
