@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: service
     attributes:
       label: Service
       description: Which service are you using?
