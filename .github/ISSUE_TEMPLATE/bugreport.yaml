@@ -45,6 +45,11 @@ body:
         - Safari
         - Microsoft Edge
   - type: textarea
+    id: url
+    attributes:
+      label: Service url
+      description: Please copy and paste the url including the parameters. This will help us to reproduce your issue.
+  - type: textarea
     id: logs
     attributes:
       label: Relevant log output
